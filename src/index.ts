@@ -1,4 +1,4 @@
-export function arrayEquals(a, b) {
+export function arrayEquals(a:any[], b:any[]) {
   const equal = Array.isArray(a)
   && Array.isArray(b)
   && a.length === b.length
